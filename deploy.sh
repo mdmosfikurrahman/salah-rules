@@ -29,7 +29,7 @@ rm -rf "$TMPDIR/dist-backup"
 # Commit and push
 git add .
 git commit -m "Deploy from dynamic-source at $(date '+%Y-%m-%d %H:%M:%S')"
-git push -u origin dynamic-2
+git push -u origin dynamic-deploy
 
 # Switch back
 git checkout dynamic-source
